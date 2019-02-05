@@ -1,8 +1,293 @@
 .container
 {
 	display: grid;
-	grid-gap: 1px;
+	grid-gap: 0px;
 	background-color: lightgrey;
 	height: 95vh;
 	grid-template-areas:
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g1  g1  .   .   .   .   .   .   .   .   '
+	'.   .   .   .   g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g1  g1  p1  p1  p1  p1  .   .   g3  g3  '
+	'.   .   g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g1  g1  p1  p1  p1  p1  g5  g5  g3  g3  '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g1  g1  p1  p1  p1  p1  .   .   g3  g3  '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b1  b1  p2  p2  .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p2  p2  .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p3  p3  p2  p2  .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b2  b2  .   .   .   .   .   .   .   .   p3  p3  p2  p2  .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b3  b3  b3  b3  b3  b3  .   .   .   .   .   .   b4  b4  p2  p2  .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b5  b5  p4  p4  b6  b6  .   .   .   .   p5  p5  p5  p5  p2  p2  .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g6  g6  g6  g6  g6  g6  .   .   .   .   p5  p5  p5  p5  p2  p2  .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p6  p6  p6  p6  p6  p6  .   .   .   .   p5  p5  p5  p5  .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  b8  b8  p7  p7  b9  b9  b9  b9  b9  b9  p5  p5  p5  p5  .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  p8  p8  p8  p8  p8  p8  ba  ba  p9  p9  p5  p5  p5  p5  .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  p8  p8  p8  p8  p8  p8  ba  ba  p9  p9  p5  p5  p5  p5  .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  pa  pa  bb  bb  pb  pb  ba  ba  p9  p9  p5  p5  p5  p5  .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  bc  bc  pc  pc  bd  bd  ba  ba  p9  p9  pd  pd  .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  pe  pe  be  be  bd  bd  ba  ba  bf  bf  pd  pd  .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   bg  bg  b7  b7  pe  pe  pf  pf  bd  bd  g7  g7  pg  pg  pd  pd  .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   ph  ph  g8  g8  g8  g8  bh  bh  pf  pf  bd  bd  g7  g7  bi  bi  pd  pd  .   .   .   .   .   .   .   .   '
+	
+	;
+}
+
+
+										/*		<-- GrEy DiV -->		*/
+
+
+#g1
+{
+	background-color: grey;
+	grid-area: g1;
+}
+
+#g2
+{
+	background-color: grey;
+	grid-area: g2;
+}
+
+#g3
+{
+	background-color: grey;
+	grid-area: g3;
+}
+
+#g4
+{
+	background-color: grey;
+	grid-area: g4;
+}
+
+#g5
+{
+	background-color: grey;
+	grid-area: g5;
+}
+
+#g6
+{
+	background-color: grey;
+	grid-area: g6;
+}
+
+#g7
+{
+	background-color: grey;
+	grid-area: g7;
+}
+
+#g8
+{
+	background-color: grey;
+	grid-area: g8;
+}
+
+
+										/*		<-- PeAcH dIv -->		*/
+
+
+#p1
+{
+	background-color: salmon;
+	grid-area: p1;
+}
+
+#p2
+{
+	background-color: salmon;
+	grid-area: p2;
+}
+
+#p3
+{
+	background-color: salmon;
+	grid-area: p3;
+}
+
+#p4
+{
+	background-color: salmon;
+	grid-area: p4;
+}
+
+#p5
+{
+	background-color: salmon;
+	grid-area: p5;
+}
+
+#p6
+{
+	background-color: salmon;
+	grid-area: p6;
+}
+
+#p7
+{
+	background-color: salmon;
+	grid-area: p7;
+}
+
+#p8
+{
+	background-color: salmon;
+	grid-area: p8;
+}
+
+#p9
+{
+	background-color: salmon;
+	grid-area: p9;
+}
+
+#pa
+{
+	background-color: salmon;
+	grid-area: pa;
+}
+
+#pb
+{
+	background-color: salmon;
+	grid-area: pb;
+}
+
+#pc
+{
+	background-color: salmon;
+	grid-area: pc;
+}
+
+#pd
+{
+	background-color: salmon;
+	grid-area: pd;
+}
+
+#pe
+{
+	background-color: salmon;
+	grid-area: pe;
+}
+
+#pf
+{
+	background-color: salmon;
+	grid-area: pf;
+}
+
+#pg
+{
+	background-color: salmon;
+	grid-area: pg;
+}
+
+
+										/*		<-- BlAcK DiV -->		*/
+
+#b1
+{
+	background-color: black;
+	grid-area: b1;
+}
+
+#b2
+{
+	background-color: black;
+	grid-area: b2;
+}
+
+#b3
+{
+	background-color: black;
+	grid-area: b3;
+}
+
+#b4
+{
+	background-color: black;
+	grid-area: b4;
+}
+
+#b5
+{
+	background-color: black;
+	grid-area: b5;
+}
+
+#b6
+{
+	background-color: black;
+	grid-area: b6;
+}
+
+#b7
+{
+	background-color: black;
+	grid-area: b7;
+}
+
+#b8
+{
+	background-color: black;
+	grid-area: b8;
+}
+
+#b9
+{
+	background-color: black;
+	grid-area: b9;
+}
+
+#ba
+{
+	background-color: black;
+	grid-area: ba;
+}
+
+#bb
+{
+	background-color: black;
+	grid-area: bb;
+}
+
+#bc
+{
+	background-color: black;
+	grid-area: bc;
+}
+
+#bd
+{
+	background-color: black;
+	grid-area: bd;
+}
+
+#be
+{
+	background-color: black;
+	grid-area: be;
+}
+
+#bf
+{
+	background-color: black;
+	grid-area: bf;
+}
+
+#bg
+{
+	background-color: black;
+	grid-area: bg;
+}
+
+#bh
+{
+	background-color: black;
+	grid-area: bh;
+}
+
+#bi
+{
+	background-color: black;
+	grid-area: bi;
 }
