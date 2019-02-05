@@ -1,0 +1,8 @@
+.container
+{
+	display: grid;
+	grid-gap: 1px;
+	background-color: lightgrey;
+	height: 95vh;
+	grid-template-areas:
+}
