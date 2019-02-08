@@ -5,27 +5,27 @@
 	background-color: lightgrey;
 	height: 95vh;
 	grid-template-areas:
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g1  g1  .   .   .   .   .   .   .   .   '
-	'.   .   .   .   g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g2  g1  g1  p1  p1  p1  p1  .   .   g3  g3  '
-	'.   .   g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g4  g1  g1  p1  p1  p1  p1  g5  g5  g3  g3  '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g1  g1  p1  p1  p1  p1  .   .   g3  g3  '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b1  b1  p2  p2  .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p2  p2  .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p3  p3  p2  p2  .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b2  b2  .   .   .   .   .   .   .   .   p3  p3  p2  p2  .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b3  b3  b3  b3  b3  b3  .   .   .   .   .   .   b4  b4  p2  p2  .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b5  b5  p4  p4  b6  b6  .   .   .   .   p5  p5  p5  p5  p2  p2  .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g6  g6  g6  g6  g6  g6  .   .   .   .   p5  p5  p5  p5  p2  p2  .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p6  p6  p6  p6  p6  p6  .   .   .   .   p5  p5  p5  p5  .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  b8  b8  p7  p7  b9  b9  b9  b9  b9  b9  p5  p5  p5  p5  .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  p8  p8  p8  p8  p8  p8  ba  ba  p9  p9  p5  p5  p5  p5  .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  p8  p8  p8  p8  p8  p8  ba  ba  p9  p9  p5  p5  p5  p5  .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  pa  pa  bb  bb  pb  pb  ba  ba  p9  p9  p5  p5  p5  p5  .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  bc  bc  pc  pc  bd  bd  ba  ba  p9  p9  pd  pd  .   .   .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   .   .   b7  b7  pe  pe  be  be  bd  bd  ba  ba  bf  bf  pd  pd  .   .   .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   .   .   bg  bg  b7  b7  pe  pe  pf  pf  bd  bd  g7  g7  pg  pg  pd  pd  .   .   .   .   .   .   .   .   '
-	'.   .   .   .   .   .   .   .   .   ph  ph  g8  g8  g8  g8  bh  bh  pf  pf  bd  bd  g7  g7  bi  bi  pd  pd  .   .   .   .   .   .   .   .   '
-	
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g01 g01 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g01 g01 p01 p01 p01 p01 .   .   g03 g03 '
+	'.   .   g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g01 g01 p01 p01 p01 p01 g05 g05 g03 g03 '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g01 g01 p01 p01 p01 p01 .   .   g03 g03 '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b01 b01 p02 p02 .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p02 p02 .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p03 p03 p02 p02 .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b02 b02 .   .   .   .   .   .   .   .   p03 p03 p02 p02 .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b03 b03 b03 b03 b03 b03 .   .   .   .   .   .   b04 b04 p02 p02 .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b05 b05 p04 p04 b06 b06 .   .   .   .   p05 p05 p05 p05 p02 p02 .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g06 g06 g06 g06 g06 g06 .   .   .   .   p05 p05 p05 p05 p02 p02 .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   p06 p06 p06 p06 p06 p06 .   .   .   .   p05 p05 p05 p05 .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b07 b07 b08 b08 p07 p07 b09 b09 b09 b09 b09 b09 p05 p05 p05 p05 .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b07 b07 p08 p08 p08 p08 p08 p08 b10 b10 p09 p09 p05 p05 p05 p05 .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b07 b07 p08 p08 p08 p08 p08 p08 b10 b10 p09 p09 p05 p05 p05 p05 .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b07 b07 p10 p10 b11 b11 p11 p11 b10 b10 p09 p09 p05 p05 p05 p05 .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b07 b07 b12 b12 p12 p12 b13 b13 b10 b10 p09 p09 p13 p13 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   .   .   b07 b07 p14 p14 b14 b14 b13 b13 b10 b10 b15 b15 p13 p13 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   .   .   b16 b16 b07 b07 p14 p14 p15 p15 b13 b13 g07 g07 p16 p16 p13 p13 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   p17 p17 g08 g08 g08 g08 b17 b17 p15 p15 b13 b13 g07 g07 b18 b18 p13 p13 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   b19 b19 p17 p17 g08 g08 g08 g08 p18 p18 p18 p18 p18 p18 g07 g07 p19 p19 .   .   .   .   .   .   .   .   .   .   '
 	;
 }
 
@@ -33,261 +33,288 @@
 										/*		<-- GrEy DiV -->		*/
 
 
-#g1
+#g01
 {
 	background-color: grey;
-	grid-area: g1;
+	grid-area: g01;
 }
 
-#g2
+#g02
 {
 	background-color: grey;
-	grid-area: g2;
+	grid-area: g02;
 }
 
-#g3
+#g03
 {
 	background-color: grey;
-	grid-area: g3;
+	grid-area: g03;
 }
 
-#g4
+#g04
 {
 	background-color: grey;
-	grid-area: g4;
+	grid-area: g04;
 }
 
-#g5
+#g05
 {
 	background-color: grey;
-	grid-area: g5;
+	grid-area: g05;
 }
 
-#g6
+#g06
 {
 	background-color: grey;
-	grid-area: g6;
+	grid-area: g06;
 }
 
-#g7
+#g07
 {
 	background-color: grey;
-	grid-area: g7;
+	grid-area: g07;
 }
 
-#g8
+#g08
 {
 	background-color: grey;
-	grid-area: g8;
+	grid-area: g08;
 }
 
 
 										/*		<-- PeAcH dIv -->		*/
 
 
-#p1
+#p01
 {
 	background-color: salmon;
-	grid-area: p1;
+	grid-area: p01;
 }
 
-#p2
+#p02
 {
 	background-color: salmon;
-	grid-area: p2;
+	grid-area: p02;
 }
 
-#p3
+#p03
 {
 	background-color: salmon;
-	grid-area: p3;
+	grid-area: p03;
 }
 
-#p4
+#p04
 {
 	background-color: salmon;
-	grid-area: p4;
+	grid-area: p04;
 }
 
-#p5
+#p05
 {
 	background-color: salmon;
-	grid-area: p5;
+	grid-area: p05;
 }
 
-#p6
+#p06
 {
 	background-color: salmon;
-	grid-area: p6;
+	grid-area: p06;
 }
 
-#p7
+#p07
 {
 	background-color: salmon;
-	grid-area: p7;
+	grid-area: p07;
 }
 
-#p8
+#p08
 {
 	background-color: salmon;
-	grid-area: p8;
+	grid-area: p08;
 }
 
-#p9
+#p09
 {
 	background-color: salmon;
-	grid-area: p9;
+	grid-area: p09;
 }
 
-#pa
+#p10
 {
 	background-color: salmon;
-	grid-area: pa;
+	grid-area: p10;
 }
 
-#pb
+#p11
 {
 	background-color: salmon;
-	grid-area: pb;
+	grid-area: p11;
 }
 
-#pc
+#p12
 {
 	background-color: salmon;
-	grid-area: pc;
+	grid-area: p12;
 }
 
-#pd
+#p13
 {
 	background-color: salmon;
-	grid-area: pd;
+	grid-area: p13;
 }
 
-#pe
+#p14
 {
 	background-color: salmon;
-	grid-area: pe;
+	grid-area: p14;
 }
 
-#pf
+#p15
 {
 	background-color: salmon;
-	grid-area: pf;
+	grid-area: p15;
 }
 
-#pg
+#p16
 {
 	background-color: salmon;
-	grid-area: pg;
+	grid-area: p16;
 }
+
+#p17
+{
+	background-color: salmon;
+	grid-area: p17;
+}
+
+#p18
+{
+	background-color: salmon;
+	grid-area: p18;
+}
+
+#p19
+{
+	background-color: salmon;
+	grid-area: p19;
+}
+
+
+
 
 
 										/*		<-- BlAcK DiV -->		*/
 
-#b1
+#b01
 {
 	background-color: black;
-	grid-area: b1;
+	grid-area: b01;
 }
 
-#b2
+#b02
 {
 	background-color: black;
-	grid-area: b2;
+	grid-area: b02;
 }
 
-#b3
+#b03
 {
 	background-color: black;
-	grid-area: b3;
+	grid-area: b03;
 }
 
-#b4
+#b04
 {
 	background-color: black;
-	grid-area: b4;
+	grid-area: b04;
 }
 
-#b5
+#b05
 {
 	background-color: black;
-	grid-area: b5;
+	grid-area: b05;
 }
 
-#b6
+#b06
 {
 	background-color: black;
-	grid-area: b6;
+	grid-area: b06;
 }
 
-#b7
+#b07
 {
 	background-color: black;
-	grid-area: b7;
+	grid-area: b07;
 }
 
-#b8
+#b08
 {
 	background-color: black;
-	grid-area: b8;
+	grid-area: b08;
 }
 
-#b9
+#b09
 {
 	background-color: black;
-	grid-area: b9;
+	grid-area: b09;
 }
 
-#ba
+#b10
 {
 	background-color: black;
-	grid-area: ba;
+	grid-area: b10;
 }
 
-#bb
+#b11
 {
 	background-color: black;
-	grid-area: bb;
+	grid-area: b11;
 }
 
-#bc
+#b12
 {
 	background-color: black;
-	grid-area: bc;
+	grid-area: b12;
 }
 
-#bd
+#b13
 {
 	background-color: black;
-	grid-area: bd;
+	grid-area: b13;
 }
 
-#be
+#b14
 {
 	background-color: black;
-	grid-area: be;
+	grid-area: b14;
 }
 
-#bf
+#b15
 {
 	background-color: black;
-	grid-area: bf;
+	grid-area: b15;
 }
 
-#bg
+#b16
 {
 	background-color: black;
-	grid-area: bg;
+	grid-area: b16;
 }
 
-#bh
+#b17
 {
 	background-color: black;
-	grid-area: bh;
+	grid-area: b17;
 }
 
-#bi
+#b18
 {
 	background-color: black;
-	grid-area: bi;
+	grid-area: b18;
+}
+
+#b19
+{
+	background-color: black;
+	grid-area: b19;
 }
