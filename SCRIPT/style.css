@@ -1,9 +1,10 @@
 .container
 {
 	display: grid;
-	grid-gap: 1px;
+	grid-gap: 0px;
 	background-color: lightgrey;
-	height: 95vh;
+	height: 600px;
+	width: 300px;
 	grid-template-areas:
 	'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g01 g01 .   .   .   .   .   .   .   .   '
 	'.   .   .   .   g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g01 g01 p01 p01 p01 p01 .   .   g03 g03 '
@@ -43,7 +44,37 @@
 	'.   .   .   .   .   p21 p21 .   .   .   .   b35 b35 b35 b35 g26 g26 g26 g26 g26 g26 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
 	'.   .   .   .   .   p21 p21 .   .   .   .   b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
 	'.   .   .   .   .   p21 p21 b38 b38 .   .   b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
-	'.   .   .   .   .   p21 p21 p23 p23 .   .   b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p23 p23 .   .   b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 b36 b36 b40 b40 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p23 p23 b39 b39 b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 p24 p24 p24 p24 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 b41 b41 b39 b39 p25 p25 p25 p25 b37 b37 b37 b37 b37 b37 p24 p24 p24 p24 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p26 p26 b39 b39 p25 p25 p25 p25 b42 b42 b42 b42 p27 p27 p24 p24 p24 p24 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   p28 p28 p25 p25 p25 p25 p29 p29 b43 b43 p27 p27 p24 p24 p24 p24 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   .   .   p28 p28 p25 p25 p25 p25 p29 p29 .   .   p27 p27 p24 p24 p24 p24 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   b44 b44 p28 p28 p25 p25 p25 p25 .   .   .   .   p27 p27 p24 p24 p24 p24 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 p25 p25 p25 p25 .   .   .   .   p27 p27 p24 p24 p24 p24 p31 p31 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 p25 p25 p25 p25 .   .   .   .   p27 p27 p24 p24 p24 p24 p31 p31 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 p25 p25 p25 p25 .   .   .   .   b45 b45 p24 p24 p24 p24 p31 p31 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 p32 p32 .   .   .   .   .   .   .   .   p24 p24 p24 p24 p31 p31 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 p32 p32 .   .   .   .   .   .   .   .   p24 p24 p24 p24 p31 p31 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 p32 p32 .   .   .   .   .   .   .   .   p24 p24 p24 p24 p31 p31 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 b46 b46 .   .   .   .   .   .   .   .   b47 b47 p33 p33 p31 p31 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p30 p30 p28 p28 .   .   .   .   .   .   .   .   .   .   b47 b47 p33 p33 b48 b48 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   b49 b49 p28 p28 .   .   .   .   .   .   .   .   .   .   .   .   b50 b50 p34 p34 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   b51 b51 p35 p35 b52 b52 .   .   .   .   .   .   .   .   .   .   .   .   b50 b50 p34 p34 .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p36 p36 p36 p36 p36 p36 .   .   .   .   .   .   .   .   .   .   .   .   p37 p37 p37 p37 p37 p37 .   .   .   .   .   .   '
+	'.   .   .   .   .   p36 p36 p36 p36 p36 p36 .   .   .   .   .   .   .   .   .   .   .   .   p37 p37 p37 p37 p37 p37 .   .   .   .   .   .   '
+	'.   .   .   .   .   p38 p38 p38 p38 .   .   .   .   .   .   .   .   .   .   .   .   .   .   p37 p37 p37 p37 p37 p37 b59 b59 .   .   .   .   '
+	'.   .   .   b54 b54 p38 p38 p38 p38 .   .   .   .   .   .   .   .   .   .   .   .   .   .   b55 b55 p39 p39 b53 b53 b59 b59 .   .   .   .   '
+	'.   .   .   b54 b54 b56 b56 p40 p40 .   .   .   .   .   .   .   .   .   .   .   .   .   .   b55 b55 b57 b57 b53 b53 b59 b59 .   .   .   .   '
+	'.   .   .   b54 b54 b56 b56 b58 b58 .   .   .   .   .   .   .   .   .   .   .   .   .   .   b55 b55 b57 b57 b53 b53 b59 b59 .   .   .   .   '
+	'.   .   .   b54 b54 b56 b56 b58 b58 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b57 b57 b53 b53 .   .   .   .   .   .   '
+	'.   .   .   b54 b54 b56 b56 b58 b58 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b57 b57 b53 b53 .   .   .   .   .   .   '
+	'.   .   .   .   .   b56 b56 b58 b58 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b57 b57 b53 b53 .   .   .   .   .   .   '
+	'.   .   .   b60 b60 b56 b56 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b57 b57 b53 b53 .   .   .   .   .   .   '
+	'.   .   .   b60 b60 b56 b56 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   b53 b53 b61 b61 .   .   .   .   '
+	'.   .   .   b60 b60 b56 b56 .   .   .   .   .   .   b62 b62 b62 b62 b62 b62 b62 b62 b62 b62 .   .   b63 b63 b53 b53 b61 b61 b64 .   .   .   '
+	'b65 b65 b65 b65 b65 b65 b65 .   .   b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 b66 '
+	'b67 b67 b67 b67 b67 b67 b67 b67 b67 b67 b67 b67 b67 b67 b67 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   '
 
 	;
 }
@@ -210,7 +241,7 @@
 
 
 
-/*		<-- PeAcH dIv -->		*/
+										/*		<-- PeAcH dIv -->		*/
 
 #p01
 {
@@ -350,6 +381,107 @@
 	grid-area: p23;
 }
 
+#p24
+{
+	background-color: salmon;
+	grid-area: p24;
+}
+
+#p25
+{
+	background-color: salmon;
+	grid-area: p25;
+}
+
+#p26
+{
+	background-color: salmon;
+	grid-area: p26;
+}
+
+#p27
+{
+	background-color: salmon;
+	grid-area: p27;
+}
+
+#p28
+{
+	background-color: salmon;
+	grid-area: p28;
+}
+
+#p29
+{
+	background-color: salmon;
+	grid-area: p29;
+}
+
+#p30
+{
+	background-color: salmon;
+	grid-area: p30;
+}
+
+#p31
+{
+	background-color: salmon;
+	grid-area: p31;
+}
+
+#p32
+{
+	background-color: salmon;
+	grid-area: p32;
+}
+
+#p33
+{
+	background-color: salmon;
+	grid-area: p33;
+}
+
+#p34
+{
+	background-color: salmon;
+	grid-area: p34;
+}
+
+#p35
+{
+	background-color: salmon;
+	grid-area: p35;
+}
+
+#p36
+{
+	background-color: salmon;
+	grid-area: p36;
+}
+
+#p37
+{
+	background-color: salmon;
+	grid-area: p37;
+}
+
+#p38
+{
+	background-color: salmon;
+	grid-area: p38;
+}
+
+#p39
+{
+	background-color: salmon;
+	grid-area: p39;
+}
+
+#p40
+{
+	background-color: salmon;
+	grid-area: p40;
+}
 
 										/*		<-- BlAcK DiV -->		*/
 
@@ -579,4 +711,178 @@
 {
 	background-color: black;
 	grid-area: b38;
+}
+
+#b39
+{
+	background-color: black;
+	grid-area: b39;
+}
+
+#b40
+{
+	background-color: black;
+	grid-area: b40;
+}
+
+#b41
+{
+	background-color: black;
+	grid-area: b41;
+}
+
+#b42
+{
+	background-color: black;
+	grid-area: b42;
+}
+
+#b43
+{
+	background-color: black;
+	grid-area: b43;
+}
+
+#b44
+{
+	background-color: black;
+	grid-area: b44;
+}
+
+#b45
+{
+	background-color: black;
+	grid-area: b45;
+}
+
+#b46
+{
+	background-color: black;
+	grid-area: b46;
+}
+
+#b47
+{
+	background-color: black;
+	grid-area: b47;
+}
+
+#b48
+{
+	background-color: black;
+	grid-area: b48;
+}
+
+#b49
+{
+	background-color: black;
+	grid-area: b49;
+}
+
+#b50
+{
+	background-color: black;
+	grid-area: b50;
+}
+
+#b51
+{
+	background-color: black;
+	grid-area: b51;
+}
+
+#b52
+{
+	background-color: black;
+	grid-area: b52;
+}
+
+#b53
+{
+	background-color: black;
+	grid-area: b53;
+}
+
+#b54
+{
+	background-color: black;
+	grid-area: b54;
+}
+
+#b55
+{
+	background-color: black;
+	grid-area: b55;
+}
+
+#b56
+{
+	background-color: black;
+	grid-area: b56;
+}
+
+#b57
+{
+	background-color: black;
+	grid-area: b57;
+}
+
+#b58
+{
+	background-color: black;
+	grid-area: b58;
+}
+
+#b59
+{
+	background-color: black;
+	grid-area: b59;
+}
+
+#b60
+{
+	background-color: black;
+	grid-area: b60;
+}
+
+#b61
+{
+	background-color: black;
+	grid-area: b61;
+}
+
+#b62
+{
+	background-color: black;
+	grid-area: b62;
+}
+
+#b63
+{
+	background-color: black;
+	grid-area: b63;
+}
+
+#b64
+{
+	background-color: black;
+	grid-area: b64;
+}
+
+#b65
+{
+	background-color: black;
+	grid-area: b65;
+}
+
+#b66
+{
+	background-color: black;
+	grid-area: b66;
+}
+
+#b67
+{
+	background-color: black;
+	grid-area: b67;
 }
