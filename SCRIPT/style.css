@@ -1,7 +1,7 @@
 .container
 {
 	display: grid;
-	grid-gap: 0px;
+	grid-gap: 1px;
 	background-color: lightgrey;
 	height: 95vh;
 	grid-template-areas:
@@ -26,6 +26,25 @@
 	'.   .   .   .   .   .   .   .   .   .   .   b16 b16 b07 b07 p14 p14 p15 p15 b13 b13 g07 g07 p16 p16 p13 p13 .   .   .   .   .   .   .   .   '
 	'.   .   .   .   .   .   .   .   .   p17 p17 g08 g08 g08 g08 b17 b17 p15 p15 b13 b13 g07 g07 b18 b18 p13 p13 .   .   .   .   .   .   .   .   '
 	'.   .   .   .   .   .   .   b19 b19 p17 p17 g08 g08 g08 g08 p18 p18 p18 p18 p18 p18 g07 g07 p19 p19 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p20 p20 p17 p17 g08 g08 g08 g08 g09 g09 b20 b20 g10 g10 g10 g10 p19 p19 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p20 p20 p17 p17 g08 g08 g08 g08 g09 g09 g11 g11 g10 g10 g10 g10 b21 b21 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p20 p20 p17 p17 g08 g08 g08 g08 g09 g09 g11 g11 g10 g10 g10 g10 g12 g12 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p20 p20 p17 p17 g08 g08 g08 g08 g09 g09 g11 g11 g10 g10 g10 g10 b22 b22 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p20 p20 p17 p17 b23 b23 g13 g13 g09 g09 g11 g11 g10 g10 g10 g10 b22 b22 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p20 p20 p17 p17 g14 g14 b24 b24 b24 b24 g15 g15 g15 g15 b25 b25 g16 g16 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   .   .   p20 p20 p17 p17 b26 b26 g17 g17 g17 g17 g15 g15 g15 g15 g18 g18 g18 g18 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   b27 b27 p20 p20 p17 p17 b26 b26 g17 g17 g17 g17 g15 g15 g15 g15 g18 g18 g18 g18 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p20 p20 b28 b28 g19 g19 g17 g17 g17 g17 g15 g15 g15 g15 g18 g18 g18 g18 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p20 p20 b28 b28 b29 b29 g21 g21 g20 g20 g20 g20 g20 g20 g20 g20 b30 b30 .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 b31 b31 b28 b28 g22 g22 b32 b32 g20 g20 g20 g20 g20 g20 g20 g20 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p22 p22 .   .   b33 b33 g23 g23 g20 g20 g20 g20 g20 g20 g20 g20 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p22 p22 .   .   g24 g24 b34 b34 g20 g20 g20 g20 g20 g20 g20 g20 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p22 p22 .   .   g24 g24 g25 g25 g20 g20 g20 g20 g20 g20 g20 g20 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 .   .   .   .   b35 b35 b35 b35 g26 g26 g26 g26 g26 g26 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 .   .   .   .   b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 b38 b38 .   .   b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
+	'.   .   .   .   .   p21 p21 p23 p23 .   .   b35 b35 b35 b35 b37 b37 b37 b37 b37 b37 b36 b36 .   .   .   .   .   .   .   .   .   .   .   .   '
+
 	;
 }
 
@@ -81,9 +100,117 @@
 	grid-area: g08;
 }
 
+#g09
+{
+	background-color: grey;
+	grid-area: g09;
+}
 
-										/*		<-- PeAcH dIv -->		*/
+#g10
+{
+	background-color: grey;
+	grid-area: g10;
+}
 
+#g11
+{
+	background-color: grey;
+	grid-area: g11;
+}
+
+#g12
+{
+	background-color: grey;
+	grid-area: g12;
+}
+
+#g13
+{
+	background-color: grey;
+	grid-area: g13;
+}
+
+#g14
+{
+	background-color: grey;
+	grid-area: g14;
+}
+
+#g15
+{
+	background-color: grey;
+	grid-area: g15;
+}
+
+#g16
+{
+	background-color: grey;
+	grid-area: g16;
+}
+
+#g17
+{
+	background-color: grey;
+	grid-area: g17;
+}
+
+#g18
+{
+	background-color: grey;
+	grid-area: g18;
+}									
+
+#g19
+{
+	background-color: grey;
+	grid-area: g19;
+}
+
+#g20
+{
+	background-color: grey;
+	grid-area: g20;
+}
+
+#g21
+{
+	background-color: grey;
+	grid-area: g21;
+}
+
+#g22
+{
+	background-color: grey;
+	grid-area: g22;
+}
+
+#g23
+{
+	background-color: grey;
+	grid-area: g23;
+}
+
+#g24
+{
+	background-color: grey;
+	grid-area: g24;
+}
+
+#g25
+{
+	background-color: grey;
+	grid-area: g25;
+}
+
+#g26
+{
+	background-color: grey;
+	grid-area: g26;
+}
+
+
+
+/*		<-- PeAcH dIv -->		*/
 
 #p01
 {
@@ -199,8 +326,29 @@
 	grid-area: p19;
 }
 
+#p20
+{
+	background-color: salmon;
+	grid-area: p20;
+}
 
+#p21
+{
+	background-color: salmon;
+	grid-area: p21;
+}
 
+#p22
+{
+	background-color: salmon;
+	grid-area: p22;
+}
+
+#p23
+{
+	background-color: salmon;
+	grid-area: p23;
+}
 
 
 										/*		<-- BlAcK DiV -->		*/
@@ -317,4 +465,118 @@
 {
 	background-color: black;
 	grid-area: b19;
+}
+
+#b20
+{
+	background-color: black;
+	grid-area: b20;
+}
+
+#b21
+{
+	background-color: black;
+	grid-area: b21;
+}
+
+#b22
+{
+	background-color: black;
+	grid-area: b22;
+}
+
+#b23
+{
+	background-color: black;
+	grid-area: b23;
+}
+
+#b24
+{
+	background-color: black;
+	grid-area: b24;
+}
+
+#b25
+{
+	background-color: black;
+	grid-area: b25;
+}
+
+#b26
+{
+	background-color: black;
+	grid-area: b26;
+}
+
+#b27
+{
+	background-color: black;
+	grid-area: b27;
+}
+
+#b28
+{
+	background-color: black;
+	grid-area: b28;
+}
+
+#b29
+{
+	background-color: black;
+	grid-area: b29;
+}
+
+#b30
+{
+	background-color: black;
+	grid-area: b30;
+}
+
+#b31
+{
+	background-color: black;
+	grid-area: b31;
+}
+
+#b32
+{
+	background-color: black;
+	grid-area: b32;
+}
+
+#b33
+{
+	background-color: black;
+	grid-area: b33;
+}
+
+#b34
+{
+	background-color: black;
+	grid-area: b34;
+}
+
+#b35
+{
+	background-color: black;
+	grid-area: b35;
+}
+
+#b36
+{
+	background-color: black;
+	grid-area: b36;
+}
+
+#b37
+{
+	background-color: black;
+	grid-area: b37;
+}
+
+#b38
+{
+	background-color: black;
+	grid-area: b38;
 }
