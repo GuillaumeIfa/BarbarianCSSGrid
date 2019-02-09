@@ -1,6 +1,7 @@
 # BarbarianCSSGrid
 This is a barbarian made of div.
-<div>Barbarian is a game for Amstrad CPC, the best computer EVER.</div>
+Barbarian is a game for Amstrad CPC, the best computer EVER.
+<br>
 <pre>'.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   g01 g01 .   .   .   .   .   .   .   .   '
 	'.   .   .   .   g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g02 g01 g01 p01 p01 p01 p01 .   .   g03 g03 '
 	'.   .   g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g04 g01 g01 p01 p01 p01 p01 g05 g05 g03 g03 '
